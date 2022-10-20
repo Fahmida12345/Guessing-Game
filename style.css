@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(247, 141, 55);
+
+}
+.box{
+    background-color: blueviolet;
+    color: white;
+    padding: 20px ;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 10px 12px black;
+}
+.box .result #icon{
+    display: none;
+    color: black;
+    margin: 20px 0;
+    font-size: 100px;
+
+
+}
+.box .result #showResult{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+    display: none;
+
+}
+.box .btn{
+    margin: 25px 0;
+}
+.box .btn #startBtn, .box .btn #reStartBtn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 0, 111);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+.box .btn #startBtn:hover, .box .btn #reStartBtn:hover{
+    background-color:rgb(73, 2, 33); 
+}
+
+.box .btn #reStartBtn{
+    display: none;
+}
+
+
+.footer{
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    bottom: 20px;
+    right: 20px;
+}
