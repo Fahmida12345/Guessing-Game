@@ -7,7 +7,7 @@ const reStartBtn = document.getElementById("reStartBtn");
 startBtn.addEventListener("click", ()=>{
     let numOfwon = 0;
     let numOflose = 0;
- for( let x= 0; x <=5 ; x++){
+ for( let x= 1; x <=5 ; x++){
     let inputNumber =parseInt(prompt("Enter the Number 1 to 5"))
 
     let systemNumber =Math.floor(Math.random()*5)+1;
