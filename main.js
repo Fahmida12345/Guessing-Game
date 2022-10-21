@@ -34,7 +34,7 @@ if(numOfwon > numOflose){
     icon.classList.replace("fa-heart-crack","fa-trophy")
 }
 else{
-    showResult.innerHTML = ` Sorry!U lose ${numOflose} Times  `
+    showResult.innerHTML = ` Sorry! U Lose ${numOflose} Times  `
     icon.classList.replace("fa-trophy" ,"fa-heart-crack")
 
 }
