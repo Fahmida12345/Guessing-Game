@@ -68,3 +68,22 @@ body{
     bottom: 20px;
     right: 20px;
 }
+
+@media screen and (max-width: 500px) {
+
+    .box{
+        margin: 0 10px;
+    }
+
+    .box .header h1{
+        font-size: 30px;
+    }
+
+
+    .footer{
+        right: auto;
+        left: auto;
+        text-align: center;
+        margin: 0 10px;
+    }
+}
